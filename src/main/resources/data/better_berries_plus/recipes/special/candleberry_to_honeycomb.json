@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "better_berries_plus:candleberries"
+    },
+    {
+      "item": "better_berries_plus:candleberries"
+    },
+    {
+      "item": "better_berries_plus:candleberries"
+    }
+  ],
+  "result": {
+    "item": "minecraft:honeycomb",
+    "count": 1
+  }
+}

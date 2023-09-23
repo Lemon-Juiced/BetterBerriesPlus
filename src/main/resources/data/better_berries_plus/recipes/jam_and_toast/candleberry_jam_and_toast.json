@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "better_berries_plus:candleberry_jam"
+    },
+    {
+      "item": "minecraft:bread"
+    }
+  ],
+  "result": {
+    "item": "better_berries_plus:candleberry_jam_and_toast",
+    "count": 1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "B"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:string"
+    },
+    "B": {
+      "item": "better_berries_plus:candleberries"
+    }
+  },
+  "result": {
+    "item": "minecraft:candle",
+    "count": 1
+  }
+}

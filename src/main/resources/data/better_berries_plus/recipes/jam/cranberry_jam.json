@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:glass_bottle"
+    },
+    {
+      "item": "better_berries_plus:cranberries"
+    },
+    {
+      "item": "better_berries_plus:cranberries"
+    }
+  ],
+  "result": {
+    "item": "better_berries_plus:cranberry_jam",
+    "count": 1
+  }
+}

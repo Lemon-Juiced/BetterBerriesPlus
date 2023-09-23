@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "#forge:berries/candleberries",
+    "#forge:berries/cranberries",
+    "#forge:berries/mulberries",
+    "#forge:berries/strawberries"
+  ]
+}
