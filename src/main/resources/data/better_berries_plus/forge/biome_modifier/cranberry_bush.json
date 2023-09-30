@@ -1,6 +1,0 @@
-{
-  "type": "forge:add_features",
-  "biomes": "#forge:berry_biomes",
-  "features": "better_berries_plus:cranberry_bush_placed",
-  "step": "vegetal_decoration"
-}
