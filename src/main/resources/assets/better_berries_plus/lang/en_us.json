@@ -38,6 +38,11 @@
   "item.better_berries_plus.sweet_berry_jam_and_toast": "Sweet Berry Jam and Toast",
   "item.better_berries_plus.spooky_jam_and_toast": "Spooky Jam and Toast",
 
+  "block.better_berries_plus.candleberry_bush": "Candleberry Bush",
+  "block.better_berries_plus.cranberry_bush": "Cranberry Bush",
+  "block.better_berries_plus.mulberry_bush": "Mulberry Bush",
+  "block.better_berries_plus.strawberry_bush": "Strawberry Bush",
+
   "tooltip.better_berries_plus.spooky_jam": "SpookyJam 2023",
 
   "itemGroup.better_berries_plus": "Better Berries Plus"
