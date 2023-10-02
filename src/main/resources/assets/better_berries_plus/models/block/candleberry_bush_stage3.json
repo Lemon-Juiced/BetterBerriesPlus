@@ -2,6 +2,6 @@
   "parent": "minecraft:block/cross",
   "render_type": "minecraft:cutout",
   "textures": {
-    "cross": "better_berries_plus:block/blackberry_bush_stage3"
+    "cross": "better_berries_plus:block/candleberry_bush_stage3"
   }
 }
