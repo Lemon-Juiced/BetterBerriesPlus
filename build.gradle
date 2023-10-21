@@ -76,7 +76,8 @@ dependencies {
     runtimeOnly fg.deobf("mezz.jei:jei-1.20.1-forge:15.0.0.15")
 
     // Better Berries (Base Mod)
-    runtimeOnly fg.deobf("curse.maven:better_berries-880536:4722542")
+    runtimeOnly fg.deobf("curse.maven:better_berries-880536:4779391")
+    compileOnly fg.deobf("curse.maven:better_berries-880536:4779391")
 
     // Apple Skin
     runtimeOnly fg.deobf("curse.maven:apple_skin-248787:4605078")

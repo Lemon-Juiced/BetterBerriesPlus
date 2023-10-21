@@ -1,9 +1,10 @@
 package lemon_juice.better_berries_plus.item.custom;
 
+import lemon_juice.better_berries.item.custom.DrinkItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
 
-public class JamItem extends DrinkItem{
+public class JamItem extends DrinkItem {
     public JamItem(Properties properties) {
         super(properties);
     }
