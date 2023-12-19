@@ -1,7 +1,7 @@
 package lemon_juice.better_berries_plus.block.custom;
 
 import lemon_juice.better_berries.block.custom.AbstractBerryBushBlock;
-import lemon_juice.better_berries_plus.item.ModItems;
+import lemon_juice.better_berries_plus.item.BetterBerriesPlusItems;
 import net.minecraft.core.BlockPos;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundSource;
@@ -23,7 +23,7 @@ public class CandleberryBushBlock extends AbstractBerryBushBlock {
     }
 
     public ItemStack getCloneItemStack(BlockGetter blockGetter, BlockPos blockPos, BlockState blockState) {
-        return new ItemStack(ModItems.CANDLEBERRIES.get());
+        return new ItemStack(BetterBerriesPlusItems.CANDLEBERRIES.get());
     }
 
     public InteractionResult use(BlockState blockState, Level level, BlockPos blockPos, Player player, InteractionHand interactionHand, BlockHitResult blockHitResult) {
@@ -33,7 +33,7 @@ public class CandleberryBushBlock extends AbstractBerryBushBlock {
             return InteractionResult.PASS;
         } else if (i > 1) {
             int j = 1 + level.random.nextInt(2);
-            popResource(level, blockPos, new ItemStack(ModItems.CANDLEBERRIES.get(), j + (flag ? 1 : 0)));
+            popResource(level, blockPos, new ItemStack(BetterBerriesPlusItems.CANDLEBERRIES.get(), j + (flag ? 1 : 0)));
             level.playSound((Player)null, blockPos, SoundEvents.SWEET_BERRY_BUSH_PICK_BERRIES, SoundSource.BLOCKS, 1.0F, 0.8F + level.random.nextFloat() * 0.4F);
             BlockState blockstate = blockState.setValue(AGE, Integer.valueOf(1));
             level.setBlock(blockPos, blockstate, 2);
